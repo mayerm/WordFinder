@@ -19,7 +19,7 @@ The expected results are `["ADG", "de"]` because `"ADG"` appears 2 times; `"de"`
 
 ## Dependencies: 
 This project uses **[CommunityToolkit.Common](https://www.nuget.org/packages/CommunityToolkit.Common)** for getting the column in an efficient way.
-It also contains an **xUnit** project and a **BenchmarkDotNet** dependency, but are used for testing and checking performance respectively, and are not needed for the correct operation of the program.
+It also contains a **BenchmarkDotNet** dependency, but is used for checking performance and is not needed for the correct operation of the program.
 
 ## How it works?
 The `WordFinder` class grabs the introduced word finder array and keeps it for that instance, as well as having filtering options for the rows and columns and a `Dictionary<string, int> foundWords` to count the amount of times a word is found inside the word finder.
@@ -196,7 +196,7 @@ Several methods and code has been used, and with the implementation of `ArrayExt
 
 ## Feedback
 
-If you have any feedback on how to improve this project, suggested tests or anything you'd like to share, leave a comment. I'd really appreciate it.
+If you have any feedback on how to improve this project, suggested tests or anything you'd like to share, leave an issue with its corresponding tag. I'd really appreciate it.
 
 
 
